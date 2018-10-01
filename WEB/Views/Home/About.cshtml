@@ -1,7 +1,22 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Acerca de";
+    ViewBag.Message = "Información de los desarrolladores";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="box box-primary">
+            <div class="box-header">
+                <h4 class="box-title">                    
+                   @ViewBag.Message
+                </h4>
+            </div>
+            <div class="box-body">
+                <p>Use this area to provide additional information.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
