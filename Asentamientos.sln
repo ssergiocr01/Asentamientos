@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asentamientos.Domain", "Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asentamientos.Common", "Common\Asentamientos.Common.csproj", "{7DCAA112-400F-486E-9409-A781466C1973}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asentamientos.API", "API\Asentamientos.API.csproj", "{062221B8-9442-45F6-8081-F43A6FB46D9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7DCAA112-400F-486E-9409-A781466C1973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DCAA112-400F-486E-9409-A781466C1973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DCAA112-400F-486E-9409-A781466C1973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062221B8-9442-45F6-8081-F43A6FB46D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062221B8-9442-45F6-8081-F43A6FB46D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062221B8-9442-45F6-8081-F43A6FB46D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062221B8-9442-45F6-8081-F43A6FB46D9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

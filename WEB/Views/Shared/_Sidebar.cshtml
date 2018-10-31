@@ -18,11 +18,28 @@
             <li class="header">HEADER</li>
             <!-- Optionally, you can add icons to the links -->
             <li class="@Url.IsLinkActive("Index", "Home")">
-                <a href="@Url.Action("Index", "Home")"><i class="fa fa-dashboard"></i> <span>Inicio</span></a>
+                <a href="@Url.Action("Index", "Home")"><i class="fa fa-home"></i> <span>Inicio</span></a>
+            </li>
+            <li class="treeview @Url.IsLinkActive("Index","Provincias")">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>Administración</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="@Url.IsLinkActive("Index","Provincias")">
+                        <a href="@Url.Action("Index","Provincias")"><i class="fa fa-circle-o"></i> <span>Provincias</span></a>
+                    </li>
+                </ul>
+            </li>
             <li class="@Url.IsLinkActive("Contact", "Home")">
                 <a href="@Url.Action("Contact", "Home")"><i class="fa fa-phone"></i> <span>Contáctenos</span></a>
+            </li>
             <li class="@Url.IsLinkActive("About", "Home")">
                 <a href="@Url.Action("About", "Home")"><i class="fa fa-question"></i> <span>Acerca de</span></a>
+            </li>           
+            
         </ul>
         <!-- /.sidebar-menu -->
     </section>
